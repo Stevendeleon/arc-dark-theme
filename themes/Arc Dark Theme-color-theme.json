@@ -173,8 +173,8 @@
 		},
 		{
 			"name": "Operator, Misc",
-			"scope": ["keyword.control.import.js",
-				"keyword.control.from.js"
+			"scope": ["keyword.control.import",
+				"keyword.control.from"
 			],
 			"settings": {
 				"foreground": "#7587A6"
@@ -182,14 +182,14 @@
 		},
 		{
 			"name": "funct",
-			"scope": "storage.type.function.js",
+			"scope": "storage.type.function",
 			"settings": {
 				"foreground": "#7587A6"
 			}
 		},
 		{
 			"name": "defined function Name",
-			"scope": "meta.definition.function.js entity.name.function.js",
+			"scope": "meta.definition.function entity.name.function",
 			"settings": {
 				
 				"foreground": "#9B859D"
@@ -197,7 +197,7 @@
 		},
 		{
 			"name": "function name called",
-			"scope": ["entity.name.function.js", "meta.function-call.js"],
+			"scope": ["entity.name.function", "meta.function-call"],
 			"settings": {
 				"foreground": "#82AAFF"
 			}
@@ -212,7 +212,7 @@
 		{
 			"name": "var - other",
 			"scope": [
-				"variable.other.readwrite.js"
+				"variable.other.readwrite"
 			],
 			"settings": {
 				"foreground": "#aac4e6",
@@ -241,7 +241,7 @@
 		{
 			"name": "var/let/const",
 			"scope": [
-				"storage.type.js"
+				"storage.type"
 			],
 			"settings": {
 				"foreground": "#7587A6",
@@ -363,7 +363,7 @@
 				"entity.other.inherited-class",
 				"markup.heading",
 				"markup.inserted.git_gutter",
-				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+				"meta.group.braces.curly constant.other.object.key string.unquoted.label"
 			],
 			"settings": {
 				"foreground": "#C3E88D"
@@ -419,8 +419,6 @@
 			"name": "type methods built in",
 			"scope": [
 				"support.variable.property",
-				// "variable.import.parameter.js",
-				// "variable.other.class.js"
 			],
 			"settings": {
 				"foreground": "#9B859D"
@@ -450,7 +448,7 @@
 		{
 			"name": "entity.name.method.js",
 			"scope": [
-				"entity.name.method.js"
+				"entity.name.method"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -460,7 +458,7 @@
 		{
 			"name": "meta.method.js",
 			"scope": [
-				"meta.class-method.js entity.name.function.js",
+				"meta.class-method entity.name.function",
 				"variable.function.constructor"
 			],
 			"settings": {
@@ -604,7 +602,7 @@
 		{
 			"name": "Punctuation",
 			"scope": [
-				"punctuation.definition.binding-pattern.object.js",
+				// "punctuation.definition.binding-pattern.object.js",
 				"punctuation.definition.binding-pattern.object",
 				"punctuation.definition.parameters"
 			],
@@ -688,7 +686,7 @@
 		{
 			"name": "js braces inside html",
 			"scope": [
-				"meta.brace.round.js"
+				"meta.brace.round"
 			],
 			"settings": {
 				"foreground": "#adbbcc"
@@ -697,7 +695,7 @@
 		{
 			"name": "Braces in HTML",
 			"scope": [
-				"meta.brace.square.js"
+				"meta.brace.square"
 			],
 			"settings": {
 				"foreground": "#dfd471"
@@ -781,7 +779,7 @@
 				"source.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#7587A6"
 			}
 		},
 		{
